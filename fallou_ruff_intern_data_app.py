@@ -7,17 +7,17 @@ import pandas as pd
 
 st.markdown("<h1 style='text-align: center; color: white;'>RUFF internal Data App 🚘</h1>", unsafe_allow_html=True)
 
-with st.expander('A Propos de cette Application'):
-    st.write(''' Cette application Data Engineering de la Compagnie RUFF (Riders Under Falilou Fall) déployée en interne permet au Data Scientist de cette 
+st.markdown("""
+ 
+Cette application Data Engineering de la Compagnie RUFF (Riders Under Falilou Fall) déployée en interne permet au Data Scientist de cette 
 Compagnie
 de télécharger des données propres 
 des (voitures, motos et scooters) en vente au Senegal et sur les voitures en location. 
 Dans sa version stable l'application inclura une technologie de streaming de données (Data Streaming) qui permettra de scraper, nettoyer, organiser et stocker
 des flux continus 
 de données en temps réel. Des données qui seront scrapées sur Dakar-auto, Expat-Dakar et les autres plateformes e-commerce dédiées du Sénégal.
-    ''')
-
-
+    
+""")
 
 ################################################### BARRE DE RECHERCHE #################################################################
 
